@@ -6,12 +6,12 @@ from library.problem import Problem
 
 def main():
 
-    connection = Connection()
-    if connection.test():
+    myconnection = Connection()
+    if myconnection.testcon():
         gopher = Gopher()
         gopher.managework()
     else:
-        problem = Problem()
+        problem = Problem('Could not start program')
         problem.report()
 
 if __name__ == "__main__":
