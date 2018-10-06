@@ -1,0 +1,6 @@
+{
+    "dbtarget": "http://www.bbc.co.uk",
+    "dbpassword": "mypassword123",
+    "msgservicetarget": "https://gmail.com",
+    "msgservicepwd": "123456abc"
+}
